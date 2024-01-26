@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public abstract class EnemyBaseState: State
 {
@@ -11,10 +12,13 @@ public abstract class EnemyBaseState: State
         _stateMachine = stateMachine;
     }
 
-    protected bool IsInRange()
+    protected readonly int StandardHash = Animator.StringToHash("StandardStateStart");
+    protected readonly int FocusHash = Animator.StringToHash("FocusStateStart");
+    
+    protected bool IsInRange(Vector3 target, float distance)
     {
-        float rangeDistance = Vector3.Distance(_stateMachine.Player.transform.position, _stateMachine.transform.position);
-        if (rangeDistance <= _stateMachine.RangeDistance)
+        float rangeDistance = Vector3.Distance(target, _stateMachine.transform.position);
+        if (rangeDistance <= distance)
             return true;
         return false;
     }
