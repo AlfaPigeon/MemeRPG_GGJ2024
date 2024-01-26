@@ -12,15 +12,12 @@ public class EnemyIdleState : EnemyBaseState
     }
 
     private bool Switcher;
-    
-    private void Start()
-    {
-        Switcher = true;
-    }
+    private Vector3 Target;
 
     public override void Enter()
     {
         _stateMachine.Animator.Play(StandardHash);
+        Switcher = true;
     }
 
     public override void Tick(float deltaTime)
@@ -28,10 +25,14 @@ public class EnemyIdleState : EnemyBaseState
         if (IsInRange(_stateMachine.Player.transform.position, _stateMachine.FocusRangeDistance))
             _stateMachine.SwitchState(new EnemyFocusState(_stateMachine));
 
-        if (IsInRange(_stateMachine.EndPoint.position, 0.1f))
-            Switcher = !Switcher;
+        if (Switcher)
+            Target = _stateMachine.EndPoint.position;
+        else
+            Target = _stateMachine.StartPoint.position;
         
-        CalculateMovement(deltaTime, _stateMachine.MovementSpeed, Switcher ? _stateMachine.EndPoint.position : _stateMachine.StartPoint.position);
+        CalculateMovement(deltaTime, _stateMachine.MovementSpeed, Target);
+        if (IsInRange(Target, 0.5f))
+            Switcher = !Switcher;
     }
 
     public override void Exit()

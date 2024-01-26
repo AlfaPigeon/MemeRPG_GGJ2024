@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Threading.Tasks;
 
 public class EnemyFocusState : EnemyBaseState
 {
@@ -13,7 +14,7 @@ public class EnemyFocusState : EnemyBaseState
     public override void Enter()
     {
         _stateMachine.Animator.CrossFadeInFixedTime(FocusHash, _stateMachine.CrossFadeDuration);
-        StartCoroutine(TimeCounter());
+        // StartCoroutine(TimeCounter());
     }
 
     public override void Tick(float deltaTime)
@@ -35,9 +36,15 @@ public class EnemyFocusState : EnemyBaseState
         _stateMachine.OldState = States.FocusState;
     }
 
-    private IEnumerator TimeCounter()
+    // private IEnumerator TimeCounter()
+    // {
+    //     yield return new WaitForSeconds(5);
+    //     trigger = true;
+    // }
+
+    public async Task TimeCounterAsync()
     {
-        yield return new WaitForSeconds(5);
+        await Task.Delay(200);
         trigger = true;
     }
 }
