@@ -9,6 +9,8 @@ public class EnemyEventHandler : MonoBehaviour
 
     private string _hash;
 
+    private readonly int AttackStateHash = Animator.StringToHash("AttackState");
+
     public void HashAssignment(string hash)
     {
         _hash = hash;
@@ -42,11 +44,21 @@ public class EnemyEventHandler : MonoBehaviour
 
     public void EnemyIntUp()
     {
-        this.EnemyStateMachine.Animator.SetInteger("AttackState",Random.Range(5, 9));
+        this.EnemyStateMachine.Animator.SetInteger(AttackStateHash,Random.Range(5, 9));
     }
 
     public void EnemyIntDown()
     {
-        this.EnemyStateMachine.Animator.SetInteger("AttackState",Random.Range(1, 5));
+        this.EnemyStateMachine.Animator.SetInteger(AttackStateHash,Random.Range(1, 5));
+    }
+
+    public void Rest()
+    {
+        this.EnemyStateMachine.Animator.SetInteger(AttackStateHash, 9);
+    }
+
+    public void AttackAgain()
+    {
+        this.EnemyStateMachine.Animator.SetInteger(AttackStateHash, Random.Range(1,9));
     }
 }

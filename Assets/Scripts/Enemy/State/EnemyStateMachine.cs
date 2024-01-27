@@ -21,6 +21,7 @@ public class EnemyStateMachine : StateMachine
     [field: SerializeField] public float AttackDistance { get; private set; }
     [field: SerializeField] public float CaptureSpeed { get; private set; }
     [field: SerializeField] public float AttackSpeed { get; private set; }
+    [field: SerializeField] public float RestTime { get; private set; }
     
     //Calculated
     [field: SerializeField] public Transform EndPoint { get; set; }
@@ -90,4 +91,5 @@ public enum States
     FocusState = 2,
     AttackState = 3,
     TrapState = 4,
+    DeathState = 5,
 }

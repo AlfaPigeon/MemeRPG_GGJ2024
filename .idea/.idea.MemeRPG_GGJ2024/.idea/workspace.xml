@@ -6,31 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="a86d3bdb-8afd-4b3f-9652-5f3eda50c4f0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MemeRPG_GGJ2024/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MemeRPG_GGJ2024/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Roundhouse Kick.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Roundhouse Kick.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing 1H Magic Attack 03.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing 1H Magic Attack 03.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing 2H Magic Attack 03.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing 2H Magic Attack 03.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Melee Attack 360 High.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Melee Attack 360 High.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Melee Attack Kick Ver. 2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Melee Attack Kick Ver. 2.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Melee Run Jump Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Melee Run Jump Attack.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Torch Melee Attack 02.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Torch Melee Attack 02.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Torch Melee Attack 04.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Torch Melee Attack 04.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Catch/Fast Run.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Catch/Fast Run.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Catch/Run 1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Catch/Run 1.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Catch/Run.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Catch/Run.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/ChickenEController.overrideController" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/ChickenEController.overrideController" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/EnemyController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/EnemyController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBaseState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBaseState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyEventHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyEventHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/EnemyAttackState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/EnemyAttackState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/EnemyFocusState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/EnemyFocusState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/EnemyIdleState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/EnemyIdleState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/EnemyStateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/EnemyStateMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/2400b0aE-inputdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/2400b0aE-inputdata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/2400b0aE.dag" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/2400b0aE.dag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/2400b0aE.dag.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/2400b0aE.dag.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/2400b0aE.dag.payloads" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/2400b0aE.dag.payloads" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/2400b0aE.dag_derived" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/2400b0aE.dag_derived" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/backend2.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/backend2.traceevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/buildprogram0.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/buildprogram0.traceevents" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/fullprofile.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/fullprofile.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.log.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Search/transactions.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
     </list>
@@ -44,6 +32,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/State/EnemyDeathState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/State/EnemyFocusState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/State/EnemyStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -127,7 +116,7 @@
       <updated>1706292295930</updated>
       <workItem from="1706292300938" duration="16919000" />
       <workItem from="1706333408608" duration="12827000" />
-      <workItem from="1706349034603" duration="12367000" />
+      <workItem from="1706349034603" duration="15771000" />
     </task>
     <servers />
   </component>
