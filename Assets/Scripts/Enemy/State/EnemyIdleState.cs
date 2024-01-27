@@ -16,6 +16,7 @@ public class EnemyIdleState : EnemyBaseState
 
     public override void Enter()
     {
+        _stateMachine.Animator.SetFloat("ChickenWalk", 0.5f);
         _stateMachine.Animator.Play(StandardHash);
         Switcher = true;
     }
