@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.Threading.Tasks;
+// using System.Threading.Tasks;
 
 public class EnemyFocusState : EnemyBaseState
 {
+    
     public EnemyFocusState(EnemyStateMachine stateMachine) : base(stateMachine)
     {
     }
@@ -42,9 +43,9 @@ public class EnemyFocusState : EnemyBaseState
     //     trigger = true;
     // }
 
-    public async Task TimeCounterAsync()
-    {
-        await Task.Delay(200);
-        trigger = true;
-    }
+    // public async Task TimeCounterAsync()
+    // {
+    //     await Task.Delay(200);
+    //     trigger = true;
+    // }
 }
