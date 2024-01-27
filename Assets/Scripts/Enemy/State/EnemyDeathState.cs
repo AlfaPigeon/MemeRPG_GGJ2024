@@ -10,12 +10,12 @@ public class EnemyDeathState : EnemyBaseState
 
     public override void Enter()
     {
-        throw new System.NotImplementedException();
+        _stateMachine.Animator.CrossFadeInFixedTime(BeingHitHash, _stateMachine.CrossFadeDuration);
+        _stateMachine.Animator.SetFloat(HitVersionHash, Random.Range(0, 3) / 2);
     }
 
     public override void Tick(float deltaTime)
     {
-        throw new System.NotImplementedException();
     }
 
     public override void Exit()

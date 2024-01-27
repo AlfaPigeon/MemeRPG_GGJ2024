@@ -148835,7 +148835,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 3.7166667
-    functionName: EnemyIntDown
+    functionName: Rest
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
