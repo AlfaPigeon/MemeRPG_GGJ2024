@@ -10,8 +10,6 @@ public class EnemyEventHandler : MonoBehaviour
     private string _hash;
 
     private readonly int AttackStateHash = Animator.StringToHash("AttackState");
-    protected readonly int DeathPosHash = Animator.StringToHash("DeathPos");
-
 
     public void HashAssignment(string hash)
     {
@@ -62,10 +60,5 @@ public class EnemyEventHandler : MonoBehaviour
     public void AttackAgain()
     {
         this.EnemyStateMachine.Animator.SetInteger(AttackStateHash, Random.Range(1,9));
-    }
-
-    public void Death()
-    {
-        this.EnemyStateMachine.Animator.SetInteger(DeathPosHash, Random.Range(1, 6));
     }
 }

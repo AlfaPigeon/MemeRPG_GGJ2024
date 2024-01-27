@@ -168,11 +168,9 @@ MonoBehaviour:
   <AttackDistance>k__BackingField: 0
   <CaptureSpeed>k__BackingField: 0
   <AttackSpeed>k__BackingField: 0
-  <RestTime>k__BackingField: 0
   <EndPoint>k__BackingField: {fileID: 599234718}
   <StartPoint>k__BackingField: {fileID: 1735935087}
   <StartState>k__BackingField: 1
-  trigger: 0
   <IsMovable>k__BackingField: 1
 --- !u!195 &30846944
 NavMeshAgent:
@@ -3203,11 +3201,9 @@ MonoBehaviour:
   <AttackDistance>k__BackingField: 2
   <CaptureSpeed>k__BackingField: 5
   <AttackSpeed>k__BackingField: 0.4
-  <RestTime>k__BackingField: 0
   <EndPoint>k__BackingField: {fileID: 599234718}
   <StartPoint>k__BackingField: {fileID: 1735935087}
   <StartState>k__BackingField: 1
-  trigger: 0
   <IsMovable>k__BackingField: 1
 --- !u!195 &1054911678
 NavMeshAgent:
