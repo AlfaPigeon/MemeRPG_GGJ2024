@@ -5,26 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a86d3bdb-8afd-4b3f-9652-5f3eda50c4f0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MemeRPG_GGJ2024/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MemeRPG_GGJ2024/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Roundhouse Kick.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Roundhouse Kick.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing 1H Magic Attack 03.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing 1H Magic Attack 03.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing 2H Magic Attack 03.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing 2H Magic Attack 03.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Melee Attack 360 High.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Melee Attack 360 High.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Melee Attack Kick Ver. 2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Melee Attack Kick Ver. 2.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Melee Run Jump Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Melee Run Jump Attack.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Torch Melee Attack 02.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Torch Melee Attack 02.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Torch Melee Attack 04.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Torch Melee Attack 04.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/EnemyController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/EnemyController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBaseState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBaseState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyEventHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyEventHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/EnemyDeathState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/EnemyDeathState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Bee/fullprofile.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/fullprofile.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Search/transactions.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +108,7 @@
       <updated>1706292295930</updated>
       <workItem from="1706292300938" duration="16919000" />
       <workItem from="1706333408608" duration="12827000" />
-      <workItem from="1706349034603" duration="18347000" />
+      <workItem from="1706349034603" duration="18466000" />
     </task>
     <servers />
   </component>
