@@ -14,9 +14,12 @@ public class EnemyIdleState : EnemyBaseState
     private bool Switcher;
     private Vector3 Target;
 
+    private float angleDiffer;
+    private bool isNegative;
+    private float walkPercent;
+
     public override void Enter()
     {
-        _stateMachine.Animator.SetFloat("ChickenWalk", 0.5f);
         _stateMachine.Animator.Play(StandardHash);
         Switcher = true;
     }
@@ -34,6 +37,20 @@ public class EnemyIdleState : EnemyBaseState
         CalculateMovement(deltaTime, _stateMachine.MovementSpeed, Target);
         if (IsInRange(Target, 0.5f))
             Switcher = !Switcher;
+        
+        CalculateRotation(deltaTime, _stateMachine.RotationSpeed, out angleDiffer, out isNegative, Target);
+        
+        Debug.Log("*" + angleDiffer);
+        
+        if (isNegative & angleDiffer > 15)
+            walkPercent = ((angleDiffer / 360) * 2);
+        else if (!isNegative & angleDiffer > 15)
+            walkPercent = ((360 - angleDiffer) / 360);
+        else
+            walkPercent = 1;
+        
+        Debug.Log(walkPercent);
+        _stateMachine.Animator.SetFloat(WalkPercentHash, walkPercent);
     }
 
     public override void Exit()

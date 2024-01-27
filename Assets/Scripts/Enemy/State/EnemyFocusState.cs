@@ -24,7 +24,7 @@ public class EnemyFocusState : EnemyBaseState
         
         if (!IsInRange(_stateMachine.Player.transform.position, _stateMachine.FocusRangeDistance))
             _stateMachine.SwitchState(new EnemyIdleState(_stateMachine));
-        
+
         CalculateRotation(deltaTime, _stateMachine.RotationSpeed, _stateMachine.Player.transform.position);
         
         if (trigger)

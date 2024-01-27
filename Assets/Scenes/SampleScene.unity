@@ -406,7 +406,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChickenSanEnemy@T-Pose
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5866666021909216657, guid: f6d2a89b9db028c41aa7864b9c34d974, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -515,6 +516,7 @@ GameObject:
   - component: {fileID: 1054911679}
   - component: {fileID: 1054911678}
   - component: {fileID: 1054911677}
+  - component: {fileID: 1054911681}
   m_Layer: 0
   m_Name: Chicken
   m_TagString: Untagged
@@ -536,10 +538,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <NaveMeshAgent>k__BackingField: {fileID: 1054911678}
   <Animator>k__BackingField: {fileID: 1054911679}
-  <FocusRangeDistance>k__BackingField: 12
-  <AttackRangeDistance>k__BackingField: 10
-  <MovementSpeed>k__BackingField: 2.5
-  <RotationSpeed>k__BackingField: 6
+  <FocusRangeDistance>k__BackingField: 10
+  <AttackRangeDistance>k__BackingField: 7
+  <MovementSpeed>k__BackingField: 1.8
+  <RotationSpeed>k__BackingField: 3
   <CrossFadeDuration>k__BackingField: 0.1
   <EndPoint>k__BackingField: {fileID: 599234718}
   <StartPoint>k__BackingField: {fileID: 1735935087}
@@ -597,13 +599,26 @@ Transform:
   m_GameObject: {fileID: 1054911676}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.97, y: 1.6, z: 11.88}
+  m_LocalPosition: {x: 15.97, y: 0, z: 11.88}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1194078302}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1054911681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054911676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb7145a195c56aa439fa6dc726e6437d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <EnemyStateMachine>k__BackingField: {fileID: 1054911677}
 --- !u!4 &1194078302 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f6d2a89b9db028c41aa7864b9c34d974, type: 3}
@@ -814,7 +829,7 @@ Transform:
   m_GameObject: {fileID: 2062603077}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 80, y: 0, z: 80}
+  m_LocalPosition: {x: 21, y: 0, z: 21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

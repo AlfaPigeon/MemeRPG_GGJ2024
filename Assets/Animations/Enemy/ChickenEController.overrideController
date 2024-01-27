@@ -9,7 +9,9 @@ AnimatorOverrideController:
   m_Name: ChickenEController
   m_Controller: {fileID: 9100000, guid: db6320ad79b94e9459ff2d3a5ba9a2ed, type: 2}
   m_Clips:
-  - m_OriginalClip: {fileID: 7400000, guid: 5617645e61d6526498ee5c261c3ce267, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 7bc98fdc5d041fe4abb49d35b056b1ba, type: 2}
-  - m_OriginalClip: {fileID: 7400000, guid: 7bc98fdc5d041fe4abb49d35b056b1ba, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 5617645e61d6526498ee5c261c3ce267, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b1f212529ef1a544fa1dc1a2f0924a63, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b1f212529ef1a544fa1dc1a2f0924a63, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: adbd8f0dbcce4db46bda2c8c66ca9d08, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: adbd8f0dbcce4db46bda2c8c66ca9d08, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 27879b3cec944b04889844691528d65f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 94fcc5cfa61a8d543a9bc74a19293b0c, type: 2}

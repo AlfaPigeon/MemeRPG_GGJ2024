@@ -6,15 +6,31 @@
   <component name="ChangeListManager">
     <list default="true" id="a86d3bdb-8afd-4b3f-9652-5f3eda50c4f0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MemeRPG_GGJ2024/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MemeRPG_GGJ2024/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Roundhouse Kick.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Roundhouse Kick.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing 1H Magic Attack 03.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing 1H Magic Attack 03.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing 2H Magic Attack 03.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing 2H Magic Attack 03.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Melee Attack 360 High.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Melee Attack 360 High.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Melee Attack Kick Ver. 2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Melee Attack Kick Ver. 2.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Melee Run Jump Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Melee Run Jump Attack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Torch Melee Attack 02.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Torch Melee Attack 02.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Torch Melee Attack 04.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Attack/Standing Torch Melee Attack 04.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/LookAround/ChickenSanEnemy@Look Around.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/LookAround/ChickenSanEnemy@Look Around.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/LookAround/ChickenSanEnemy@Looking Around.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/LookAround/ChickenSanEnemy@Looking Around.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/LookAround/ChickenSanEnemy@Standing Torch Idle 03.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/LookAround/ChickenSanEnemy@Standing Torch Idle 03.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Turn/Standing Turn Left 90.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Turn/Standing Turn Left 90.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Turn/Standing Turn Right 90.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Turn/Standing Turn Right 90.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Walk/Walker Walk.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Walk/Walker Walk.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Walk/Walking 1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Walk/Walking 1.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Walk/Walking 2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Walk/Walking 2.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Walk/Walking.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Chicken/Walk/Walking.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/ChickenEController.overrideController" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/ChickenEController.overrideController" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/EnemyController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/EnemyController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/ChickenSan/ChickenSan.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/ChickenSan/ChickenSan.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/New Folder.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/New Folder/Patrick.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/New Folder/Patrick.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/New Folder/lips-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/New Folder/lips-01.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBaseState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBaseState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/EnemyFocusState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/EnemyFocusState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/EnemyIdleState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/State/EnemyIdleState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/2400b0aE-inputdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/2400b0aE-inputdata.json" afterDir="false" />
@@ -347,7 +363,6 @@
       <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.log.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.log.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/EditorSnapSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorSnapSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@2.2.0/.Resources/.collabattributes" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@2.2.0/.Resources/.collabattributes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@2.2.0/.Resources/.collabignore" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@2.2.0/.Resources/.collabignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@2.2.0/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@2.2.0/.gitattributes" afterDir="false" />
@@ -7518,41 +7533,42 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/State/EnemyFocusState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/State/EnemyStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2bVFMvc1cfxlsFoJbjjJdDXAoHr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\turkc\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\turkc\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\turkc\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\turkc\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\turkc\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\turkc\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Unity.exe" />
@@ -7599,7 +7615,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706292295930</updated>
-      <workItem from="1706292300938" duration="16292000" />
+      <workItem from="1706292300938" duration="16919000" />
+      <workItem from="1706333408608" duration="10889000" />
     </task>
     <servers />
   </component>
