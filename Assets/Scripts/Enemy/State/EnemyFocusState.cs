@@ -9,12 +9,11 @@ public class EnemyFocusState : EnemyBaseState
     public EnemyFocusState(EnemyStateMachine stateMachine) : base(stateMachine)
     {
     }
-
-    private bool trigger = false;
     
     public override void Enter()
     {
         _stateMachine.Animator.CrossFadeInFixedTime(FocusHash, _stateMachine.CrossFadeDuration);
+        _stateMachine.Timer(5);
         // StartCoroutine(TimeCounter());
     }
 
@@ -27,13 +26,18 @@ public class EnemyFocusState : EnemyBaseState
             _stateMachine.SwitchState(new EnemyIdleState(_stateMachine));
 
         CalculateRotation(deltaTime, _stateMachine.RotationSpeed, _stateMachine.Player.transform.position);
-        
-        if (trigger)
+
+        if (_stateMachine.trigger)
+        {
+            _stateMachine.AttackRangeDistance = _stateMachine.FocusRangeDistance;
             _stateMachine.SwitchState(new EnemyAttackState(_stateMachine));
+            _stateMachine.trigger = false;
+        }
     }
 
     public override void Exit()
     {
+        _stateMachine.Animator.SetInteger(FocusStateHash, 0);
         _stateMachine.OldState = States.FocusState;
     }
 

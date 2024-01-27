@@ -14,8 +14,12 @@ public abstract class EnemyBaseState: State
 
     protected readonly int StandardHash = Animator.StringToHash("StandardStateStart");
     protected readonly int FocusHash = Animator.StringToHash("FocusStateStart");
+    protected readonly int AttackHash = Animator.StringToHash("AttackStateStart");
 
     protected readonly int WalkPercentHash = Animator.StringToHash("WalkPercent");
+    protected readonly int AttackStateHash = Animator.StringToHash("AttackState");
+    protected readonly int FocusStateHash = Animator.StringToHash("FocusState");
+    protected readonly int RunningHash = Animator.StringToHash("Running");
     
     protected bool IsInRange(Vector3 target, float distance)
     {

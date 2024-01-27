@@ -28,15 +28,25 @@ public class EnemyEventHandler : MonoBehaviour
     {
         int val = Random.Range(this.EnemyStateMachine.Animator.GetInteger(_hash) + 1,
             this.EnemyStateMachine.Animator.GetInteger(_hash) + range);
-        Debug.Log("inc" + val);
+        // Debug.Log("inc" + val);
         this.EnemyStateMachine.Animator.SetInteger(_hash, val);
     }
     
     public void IntPolyDecrease(int range)
     {
         int val = Random.Range(this.EnemyStateMachine.Animator.GetInteger(_hash) - range,
-            this.EnemyStateMachine.Animator.GetInteger(_hash) - 1);
-        Debug.Log("dec" + val);
+            this.EnemyStateMachine.Animator.GetInteger(_hash));
+        // Debug.Log("dec" + val);
         this.EnemyStateMachine.Animator.SetInteger(_hash, val);
+    }
+
+    public void EnemyIntUp()
+    {
+        this.EnemyStateMachine.Animator.SetInteger("AttackState",Random.Range(5, 9));
+    }
+
+    public void EnemyIntDown()
+    {
+        this.EnemyStateMachine.Animator.SetInteger("AttackState",Random.Range(1, 5));
     }
 }

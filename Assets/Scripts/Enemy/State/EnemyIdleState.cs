@@ -40,8 +40,6 @@ public class EnemyIdleState : EnemyBaseState
         
         CalculateRotation(deltaTime, _stateMachine.RotationSpeed, out angleDiffer, out isNegative, Target);
         
-        Debug.Log("*" + angleDiffer);
-        
         if (isNegative & angleDiffer > 15)
             walkPercent = ((angleDiffer / 360) * 2);
         else if (!isNegative & angleDiffer > 15)
@@ -49,7 +47,6 @@ public class EnemyIdleState : EnemyBaseState
         else
             walkPercent = 1;
         
-        Debug.Log(walkPercent);
         _stateMachine.Animator.SetFloat(WalkPercentHash, walkPercent);
     }
 

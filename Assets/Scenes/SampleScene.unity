@@ -161,6 +161,9 @@ MonoBehaviour:
   <MovementSpeed>k__BackingField: 3
   <RotationSpeed>k__BackingField: 6
   <CrossFadeDuration>k__BackingField: 1
+  <AttackDistance>k__BackingField: 0
+  <CaptureSpeed>k__BackingField: 0
+  <AttackSpeed>k__BackingField: 0
   <EndPoint>k__BackingField: {fileID: 599234718}
   <StartPoint>k__BackingField: {fileID: 1735935087}
   <StartState>k__BackingField: 1
@@ -543,6 +546,9 @@ MonoBehaviour:
   <MovementSpeed>k__BackingField: 1.8
   <RotationSpeed>k__BackingField: 3
   <CrossFadeDuration>k__BackingField: 0.1
+  <AttackDistance>k__BackingField: 2
+  <CaptureSpeed>k__BackingField: 5
+  <AttackSpeed>k__BackingField: 0.4
   <EndPoint>k__BackingField: {fileID: 599234718}
   <StartPoint>k__BackingField: {fileID: 1735935087}
   <StartState>k__BackingField: 1
